@@ -9,6 +9,17 @@
   margin: 0.5em;
   box-shadow: 1em 1em 1em rgba(0, 0, 0, 0.2);
   border: solid 2px white;
+  transition: all 0.7s ease; 
+}
+
+.card:hover {
+  box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.1);
+  background-color: #162e45;
+}
+
+
+.card.sold-out {
+  opacity: 0.5;
 }
 
 .card-top {

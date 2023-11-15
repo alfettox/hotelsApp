@@ -23,7 +23,7 @@ const cardsData = [
     email: "info@lanature.room",
     price: "300",
     location: "Montréal",
-    availability: true,
+    availability: false,
   },
   {
     image: room2,

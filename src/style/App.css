@@ -20,6 +20,7 @@ body {
   flex-direction: row;
   justify-content: center;
   box-shadow: 0 0.2em 20em 20em #f2c057;
+  border-bottom: 1px solid #c12424;
 }
 
 .navbar > ul {
@@ -57,14 +58,29 @@ body {
   justify-content: center;
   font-style: italic;
   margin-top: 2em;
+  background-color:white;
+  width:auto;
+
 }
 
 .card--badge {
-  position: absolute;
   top: 6px;
   left: 6px;
-  background-color: white;
   padding: 5px 7px;
   border-radius: 2px;
   font-weight: bold;
+}
+
+
+@media (max-width: 768px) {
+  .card-container {
+    display: grid;
+
+    grid-template-columns: repeat(1, 1fr);
+
+  }
+
+  .card{
+    max-width:100%;
+  }
 }
